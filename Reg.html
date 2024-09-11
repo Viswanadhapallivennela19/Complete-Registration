@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+         
+        <link rel="stylesheet" href="Reg.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <script></script>
+    </head>
+    <body>
+        
+        <form method="get" action="https://10000coders.co/" >
+             
+            <fieldset>
+                <legend>Registration Form</legend>
+             
+            <label for="fname">FName:</label><br>
+            <input type="text" placeholder="Enter your Fname" name="fname" id="fname" required autocomplete="on"><br><br>
+            <label for="lname">LName:</label><br>
+            <input type="text" placeholder="Enter Your Lname" name="lname" id="lname" required autocomplete="on"><br><br>
+            <label for="age">Age:</label><br>
+            <input type="number" minlength="1" maxlength="100" name="age" id="age" required autocomplete="on"><br><br>
+            <label for="mobilenumber">Phone Number:</label><br>
+            <input type="number" minlength="0000000000" maxlength="9999999999" name="number" id="mobilenumber" required autocomplete="on"><br><br>
+            <label for="dob">Date Of Birth:</label><br>
+            <input type="date" name="dob" id="dob" required autocomplete="on"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" placeholder="example123@gmail.com" name="email" id="email" required autocomplete="on"><br><br>
+            <label for="present">Present Address:</label><br>
+             <textarea id="present" name="present"></textarea><br><br>
+            <label for="permanent">Permanent Address:</label><br>
+             <textarea id="permanent" name="permanent"></textarea><br><br>
+            <label for="universityname">University Name:</label><br>
+            <input type="text" placeholder="Enter your College Name" name="universityname" id="universityname" required autocomplete="on"><br><br>
+            <label for="branch">Branch:</label><br>
+             <select name="branch" required>
+                <option value="">Select Your branch </option>
+                <option value="ECE">ECE</option>
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="EEE">EEE</option>
+                <option value="AI">AI</option>
+                <option value="Others">Others</option>
+             </select><br><br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio"  name="Gender" value="female" id="gender" required autocomplete="on" value="Female">Female
+            <input type="radio" name="Gender" value="male" id="gender" required autocomplete="on" value="Male">Male
+            <input type="radio" name="Gender" value="others" id="gender" required autocomplete="on" value="Others">Others<br><br>
+            <label for="languages">Known Languages:</label><br>
+            <input type="checkbox" name="Telugu" value="telugu" id="languages" required  >Telugu
+            <input type="checkbox" name="English" value="english" id="languages" required  >English
+            <input type="checkbox" name="Hindi" value="hindi" id="languages" required  >Hindi
+            <input type="checkbox" name="Others" value="others" id="languages" required  >Others<br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+        </form>
+      
+    </body>
+</html>
